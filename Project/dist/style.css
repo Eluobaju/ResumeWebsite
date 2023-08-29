@@ -43,7 +43,7 @@ button, .button {
   font-weight: 400;
 }
 
-@media (min-width: 63.9375em) {
+@media (max-width: 63.9375em) {
   .hide-for-mobile {
     display: none;
   }
