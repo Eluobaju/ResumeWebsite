@@ -12,12 +12,20 @@ body{
     font-size: $font-med;
     font-weight: 300;
     color: $grayishblue;
+    
+    &.noScroll{
+        overflow: hidden;
+    }
 }
 
 a, a:visited, a:hover{
     text-decoration: none;
 }
-
+//global padding 
+.container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
 // flex 
 .flex{
     display: flex;

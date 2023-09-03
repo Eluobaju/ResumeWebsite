@@ -6,31 +6,39 @@
 
     <link rel="stylesheet" href="/Project/dist/style.css">
 </head>
+
 <body>
-    <Header class="header">
-        <div class="overlay"></div>
+    <header class="header">
+        <div class="overlay has-fade"></div>
         
-        <nav class="flex flex-jc-sb flex-ai-c">
+        <nav class="container flex flex-jc-sb flex-ai-c">
             <a href="/"class = "header__logo"> 
                 <img src="add a logo" alt="pixelLogo">
             </a>
-            <a id="btnHamburger" href="#" class= "header__menu  hide-for-desktop">
+            <a id="btnHamburger" href="#" class= "header__toggle  hide-for-desktop">
                 <span></span>
                 <span></span>
                 <span></span>
             </a>
-            <div class="header__links 
-            hide-for-mobile">
+            <div class="header__links  hide-for-mobile">
                 <a href="#">Home</a>
                 <a href="#">Resume</a>
                 <a href="#">Published Works</a>
                 <a href="#">Project 1</a>
-                <a href="#">Project 2</a>
+                <a href="#">Project 2</a> 
             </div>
 
             <a href="#" class="button header__cta hide-for-mobile">Play Game</a>
         </nav>
-    </Header>
+
+        <div class="header__menu has-fade">
+            <a href="#">Home</a>
+            <a href="#">Resume</a>
+            <a href="#">Published Works</a>
+            <a href="#">Project 1</a>
+            <a href="#">Project 2</a>
+        </div>
+    </header>
 
 	<script src="/Project/App/JS/script.js"></script>
 </body>
